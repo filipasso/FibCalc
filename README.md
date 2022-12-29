@@ -20,7 +20,7 @@ gh repo create FibCalc --public --source=. --remote=FibCalc --push
 # Krok 2 - Dockerfile
 Zawartość pliku Dockerfile
 
-![obraz](https://user-images.githubusercontent.com/60239006/210004964-6cb75ff7-0689-4cd5-b16e-215521deb48c.png)
+![obraz](https://user-images.githubusercontent.com/60239006/210008296-aa89f9d4-cf21-4a34-9430-94f8d7144de1.png)
 
 Celem utworzenia obrazu wykonano następujące polecenie: docker build -t sprawozdanie1:v1
 
@@ -33,6 +33,26 @@ Aby uruchomić kontener w wersji interaktywnej wykonano następujące polecenie:
 Kolejnym etapem było przygotowanie pliku fib.yml, który będzie zgodny z wymaganą specyfikacją.
 
 ![obraz](https://user-images.githubusercontent.com/60239006/210005470-d9d64a27-fa2e-40d0-a1f9-82f379ff539a.png)
+
+# semver
+Zgodnie z nazewnictwem semver versja ma następującą strukturę
+vMAJOR.MINOR.PATCH
+MAJOR - nowa wersja, która jest niekompatybilna z poprzednim API
+MINOR - nowa funkcja kompatybilna z poprzednimi wersjami
+PATCH - naprawa błędu bez dodania nowej funkcjonalności
+
+Celem dodania nowej funkcji należy wydać polecenie
+
+git tag nazwa-wersji
+
+nastepnie nalezy wykonac polecenie
+
+git push --tags
+
+po tym zmiana bedzie widoczna w workflowach, ktore zostana wykonane po dodaniu wersji
+
+Za mozliwosc wykorzystania hgcr.io odpowiada wpis o nazwie ghcr. W tym wpisie jest logowanie się do serwisu.
+We wpisie Docker meta znajduje się definiowanie obrazu oraz jego opis za pomoca metadata-action.
 
 
 # Krok 4 - sprawdzenie działania
