@@ -1,4 +1,5 @@
 Sprawozdanie 1
+# Krok 1
 Pierwszym krokiem było wykonanie pliku index.js, który ma za zadanie obliczać wartość poszczególnych elementów Ciągu Fibbonaciego. Program ten nie ma ograniczeń co do wielkości liczb jednak przy liczbach większych od 80 może występować rozbieżność z powodu wykorzystanego sposobu obliczeń.
 
 Celem utworzenia obrazu wykonano następujące polecenie: docker build -t sprawozdanie1:v1
@@ -8,3 +9,11 @@ Aby uruchomić kontener w wersji interaktywnej wykonano następujące polecenie:
 
 Celem inicjalizacji nowego repozytorium wykonano następujące polecenia:
 
+git init -b main
+
+git add .
+git commit -m "init"
+
+gh repo create FibCalc --public --source=. --remote=FibCalc --push
+
+# Krok 2
