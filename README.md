@@ -28,7 +28,7 @@ Aby uruchomić kontener w wersji interaktywnej wykonano następujące polecenie:
 
 ![obraz](https://user-images.githubusercontent.com/60239006/210004253-62c7a859-e436-4459-9347-6d319672d659.png)
 
-#Krok 3 - Przygotowanie pliku fib.yml
+# Krok 3 - Przygotowanie pliku fib.yml
 
 Kolejnym etapem było przygotowanie pliku fib.yml, który będzie zgodny z wymaganą specyfikacją.
 
