@@ -1,7 +1,7 @@
 FROM node:alpine
 
-WORKDIR '/'
+WORKDIR /app
 
-COPY index.php .
+COPY index.js /app
 
-CMD ["php", "./index.php"]
+ENTRYPOINT [ "node","/app/index.js"]
