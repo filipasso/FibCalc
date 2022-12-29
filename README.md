@@ -1,3 +1,7 @@
+https://github.com/filipasso/FibCalc
+
+https://hub.docker.com/repository/docker/filipasso/sprawozdanie1
+
 # Sprawozdanie 1
 # Krok 1 - obraz
 Pierwszym krokiem było wykonanie pliku index.js, który ma za zadanie obliczać wartość poszczególnych elementów Ciągu Fibbonaciego. Program ten nie ma ograniczeń co do wielkości liczb jednak przy liczbach większych od 80 może występować rozbieżność z powodu wykorzystanego sposobu obliczeń.
