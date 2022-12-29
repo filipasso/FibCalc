@@ -20,7 +20,7 @@ gh repo create FibCalc --public --source=. --remote=FibCalc --push
 # Krok 2 - Dockerfile
 Zawartość pliku Dockerfile
 
-![obraz](https://user-images.githubusercontent.com/60239006/210008296-aa89f9d4-cf21-4a34-9430-94f8d7144de1.png)
+![obraz](https://user-images.githubusercontent.com/60239006/210011487-2fb37664-ee0b-4e17-93ef-c37dfe436f3f.png)
 
 Celem utworzenia obrazu wykonano następujące polecenie: docker build -t sprawozdanie1:v1
 
